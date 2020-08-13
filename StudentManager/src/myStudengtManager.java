@@ -21,7 +21,12 @@ public class myStudengtManager {
 /*            if (line == "5") {
                 System.out.println("谢谢使用！");
                 break;
-            }*///直接使用system.exit（0）；终止虚拟机
+            }*
+            //方法一：直接使用system.exit（0）替换break；终止虚拟机
+            //方法二：使用循环编号，给编号lo:
+                                        while(true){}
+                                终止此循环: break lo;
+ */
 
             switch (line) {
                 case "1":

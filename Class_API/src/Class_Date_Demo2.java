@@ -10,6 +10,7 @@ public class Class_Date_Demo2 {
         String s = "2018-03-04";
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date d = sdf.parse(s);
+        System.out.println(d);
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy年MM月dd日");
         String s1 = sdf2.format(d);
         System.out.println(s1);
